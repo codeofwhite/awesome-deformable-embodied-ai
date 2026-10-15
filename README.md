@@ -58,6 +58,7 @@
 - [DeMaVLA: A Vision-Language-Action Foundation Model for Generalizable Deformable Manipulation](https://arxiv.org/abs/2605.31286) - Policy learning: combines real-world demonstration pretraining, flow-matching actions, and human-in-the-loop corrective data for garment folding across categories. 📄
 - [Learning to Rearrange Deformable Cables, Fabrics, and Bags with Goal-Conditioned Transporter Networks](https://arxiv.org/abs/2012.03385) - Multiple object types: uses image-goal-conditioned Transporter Networks for multi-step cable, fabric, and bag manipulation, evaluated in simulation and physical experiments. 📄
 - [DextAIRity: Deformable Manipulation Can be a Breeze](https://arxiv.org/abs/2203.01197) - Airflow-assisted manipulation: combines grasping and closed-loop blowing actions for cloth unfolding and bag opening on a real three-arm system. 📄
+- [Diffusion Dynamics Models with Generative State Estimation for Cloth Manipulation](https://arxiv.org/abs/2503.11999) - Uses diffusion models to reconstruct cloth states from partial observations and predict dynamics, with model predictive control for real-robot folding. 📄
 
 ## Sim-to-Real Transfer
 
@@ -65,6 +66,7 @@
 - [SIM1: Physics-Aligned Simulator as Zero-Shot Data Scaler in Deformable Worlds](https://arxiv.org/abs/2604.08544) - Real-to-sim-to-real data generation with scene digitization, calibrated deformable dynamics, and filtered trajectory synthesis. 📄
 - [Sim-to-Real Gentle Manipulation of Deformable and Fragile Objects with Stress-Guided Reinforcement Learning](https://arxiv.org/abs/2510.25405) - Uses stress-penalized rewards and a rigid-to-deformable curriculum to transfer gentle manipulation policies to fragile real objects. 📄
 - [Learning to Manipulate Deformable Objects in the Real World via Sim2Real](https://arxiv.org/abs/2512.11070) - End-to-end sim2real pipeline for deformable object manipulation with domain randomization. 📄
+- [Differentiable Cloth Parameter Identification and State Estimation in Manipulation](https://arxiv.org/abs/2311.05141) - Uses differentiable simulation and RGB-D observations to identify cloth physical parameters and estimate cloth states for manipulation. 📄
 
 ## Benchmarks & Evaluation
 
@@ -82,7 +84,7 @@
 - [NeuSpring: Neural Spring Fields for Reconstruction and Simulation of Deformable Objects from Videos](https://arxiv.org/abs/2511.08310) - Reconstructs deformable digital twins using piecewise spring topology and neural spring fields for spatially varying physical properties. 📄
 - [Image2Garment: Simulation-ready Garment Generation from a Single Image](https://arxiv.org/abs/2601.09658) - Predicts garment geometry and fabric physics from a single image using material attributes and measured material-to-physics mappings. 📄
 - [PhysX-3D: Physical-Grounded 3D Asset Generation](https://arxiv.org/abs/2507.12465) - End-to-end paradigm for physical-grounded 3D asset generation with PhysXNet dataset. 📄 ⭐
-- [PhysX-Anything: Simulation-Ready Physical 3D Assets from Single Image](https://arxiv.org/abs/2511.13468) - Generate simulation-ready 3D assets with physical properties from a single image. 📄
+- [PhysX-Anything: Simulation-Ready Physical 3D Assets from Single Image](https://arxiv.org/abs/2511.13648) - Generate simulation-ready 3D assets with physical properties from a single image. 📄
 - [PhysX-Omni: Unified Simulation-Ready Physical 3D Generation for Rigid, Deformable, and Articulated Objects](https://arxiv.org/abs/2605.21572) - First to include deformable objects in PhysX generation scope, unifying rigid/deformable/articulated. 📄 ⭐
 - [DiffGI: Differentiable Geometry Images](https://arxiv.org/abs/2607.13365) - 3D garment generation via differentiable geometry images (no integrated physics yet). 📄
 - [PhysTwin: Physics-Informed Reconstruction and Simulation of Deformable Objects from Videos](https://arxiv.org/abs/2503.17973) - Physics-informed reconstruction and simulation of deformable objects from video; a precursor to Real2Render2Real and DeformGen. 📄 ⭐
@@ -97,6 +99,8 @@
 - [Position Based Dynamics (PBD)](https://matthias-research.github.io/pages/tenMinutePhysics/) - Classic introductory resource for Position Based Dynamics simulation. 🔧
 - [ThinShellLab: Thin-Shell Object Manipulations With Differentiable Physics Simulations](https://arxiv.org/abs/2404.00451) - Fully differentiable simulation platform for thin-shell materials (paper, cloth) with varying bending stiffness. 📄 🔧
 - [Second-Order FEM for Deformable Surfaces](https://dl.acm.org/doi/10.1145/3592430) - High-order finite element method for improving accuracy in cloth / thin-shell simulation. 📄
+- [Particle-Grid Neural Dynamics for Learning Deformable Object Models from RGB-D Videos](https://arxiv.org/abs/2506.15680) - Learns particle-grid deformable dynamics from sparse-view RGB-D videos and uses the learned models for goal-conditioned manipulation planning. 📄
+- [ClothTransformer: Unified Latent-Space Transformers for Scalable Cloth Simulation](https://arxiv.org/abs/2605.27852) - Models cloth dynamics with latent-space autoregressive Transformers across body-driven garments, robotic manipulation, and free-fall collisions. 📄
 
 ## Surveys & Reading Guides
 

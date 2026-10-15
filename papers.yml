@@ -255,6 +255,13 @@ sections:
         desc_en: "Airflow-assisted manipulation: combines grasping and closed-loop blowing actions for cloth unfolding and bag opening on a real three-arm system."
         desc_zh: "气流辅助操作：结合抓取与闭环吹气动作，在真实三臂系统上完成布料展开和袋口打开。"
 
+      - title: "Diffusion Dynamics Models with Generative State Estimation for Cloth Manipulation"
+        url: "https://arxiv.org/abs/2503.11999"
+        year: 2025
+        tags: [paper]
+        desc_en: "Uses diffusion models to reconstruct cloth states from partial observations and predict dynamics, with model predictive control for real-robot folding."
+        desc_zh: "利用扩散模型从局部观测重建布料状态并预测动力学，结合模型预测控制实现实机折叠。"
+
   - id: sim2real
     title_en: "Sim-to-Real Transfer"
     title_zh: "Sim-to-Real 迁移"
@@ -287,6 +294,13 @@ sections:
         tags: [paper]
         desc_en: "End-to-end sim2real pipeline for deformable object manipulation with domain randomization."
         desc_zh: "端到端 sim2real 流水线，通过域随机化实现柔性物体操作的实机迁移。"
+
+      - title: "Differentiable Cloth Parameter Identification and State Estimation in Manipulation"
+        url: "https://arxiv.org/abs/2311.05141"
+        year: 2023
+        tags: [paper]
+        desc_en: "Uses differentiable simulation and RGB-D observations to identify cloth physical parameters and estimate cloth states for manipulation."
+        desc_zh: "利用可微仿真与 RGB-D 观测辨识布料物理参数，并估计操作过程中的布料状态。"
 
   - id: benchmarks
     title_en: "Benchmarks & Evaluation"
@@ -378,7 +392,7 @@ sections:
         desc_zh: "端到端的物理驱动 3D 资产生成范式，包含 PhysXNet 数据集。"
 
       - title: "PhysX-Anything: Simulation-Ready Physical 3D Assets from Single Image"
-        url: "https://arxiv.org/abs/2511.13468"
+        url: "https://arxiv.org/abs/2511.13648"
         authors: "Ziang Cao, Fangzhou Hong, Zhaoxi Chen, Liang Pan, Ziwei Liu"
         venue: arXiv
         year: 2025
@@ -469,6 +483,20 @@ sections:
         tags: [paper]
         desc_en: "High-order finite element method for improving accuracy in cloth / thin-shell simulation."
         desc_zh: "高阶有限元法用于布料/薄壳仿真的精度提升。"
+
+      - title: "Particle-Grid Neural Dynamics for Learning Deformable Object Models from RGB-D Videos"
+        url: "https://arxiv.org/abs/2506.15680"
+        year: 2025
+        tags: [paper]
+        desc_en: "Learns particle-grid deformable dynamics from sparse-view RGB-D videos and uses the learned models for goal-conditioned manipulation planning."
+        desc_zh: "从稀疏视角 RGB-D 视频学习粒子与网格结合的柔性物体动力学，并用于目标条件操作规划。"
+
+      - title: "ClothTransformer: Unified Latent-Space Transformers for Scalable Cloth Simulation"
+        url: "https://arxiv.org/abs/2605.27852"
+        year: 2026
+        tags: [paper]
+        desc_en: "Models cloth dynamics with latent-space autoregressive Transformers across body-driven garments, robotic manipulation, and free-fall collisions."
+        desc_zh: "通过潜空间自回归 Transformer 建模布料动力学，覆盖人体驱动衣物、机器人操作和自由落体碰撞。"
 
   - id: surveys
     title_en: "Surveys & Reading Guides"

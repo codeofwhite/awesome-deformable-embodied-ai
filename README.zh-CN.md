@@ -58,6 +58,7 @@
 - [DeMaVLA: A Vision-Language-Action Foundation Model for Generalizable Deformable Manipulation](https://arxiv.org/abs/2605.31286) - 策略学习：结合真实示范预训练、流匹配动作生成与人在回路纠错数据，学习跨类别衣物折叠策略。 📄
 - [Learning to Rearrange Deformable Cables, Fabrics, and Bags with Goal-Conditioned Transporter Networks](https://arxiv.org/abs/2012.03385) - 多类对象操作：以图像目标条件化的 Transporter Networks 执行线缆、织物和袋子的多步操作，在仿真与物理实验中评估。 📄
 - [DextAIRity: Deformable Manipulation Can be a Breeze](https://arxiv.org/abs/2203.01197) - 气流辅助操作：结合抓取与闭环吹气动作，在真实三臂系统上完成布料展开和袋口打开。 📄
+- [Diffusion Dynamics Models with Generative State Estimation for Cloth Manipulation](https://arxiv.org/abs/2503.11999) - 利用扩散模型从局部观测重建布料状态并预测动力学，结合模型预测控制实现实机折叠。 📄
 
 ## Sim-to-Real 迁移
 
@@ -65,6 +66,7 @@
 - [SIM1: Physics-Aligned Simulator as Zero-Shot Data Scaler in Deformable Worlds](https://arxiv.org/abs/2604.08544) - 结合场景数字化、柔性动力学校准和轨迹生成筛选的 real-to-sim-to-real 数据扩增流程。 📄
 - [Sim-to-Real Gentle Manipulation of Deformable and Fragile Objects with Stress-Guided Reinforcement Learning](https://arxiv.org/abs/2510.25405) - 通过应力惩罚奖励与从刚体到柔体的课程训练，将轻柔操作策略迁移到真实易损物体。 📄
 - [Learning to Manipulate Deformable Objects in the Real World via Sim2Real](https://arxiv.org/abs/2512.11070) - 端到端 sim2real 流水线，通过域随机化实现柔性物体操作的实机迁移。 📄
+- [Differentiable Cloth Parameter Identification and State Estimation in Manipulation](https://arxiv.org/abs/2311.05141) - 利用可微仿真与 RGB-D 观测辨识布料物理参数，并估计操作过程中的布料状态。 📄
 
 ## 基准测试与评估
 
@@ -82,7 +84,7 @@
 - [NeuSpring: Neural Spring Fields for Reconstruction and Simulation of Deformable Objects from Videos](https://arxiv.org/abs/2511.08310) - 通过分区弹簧拓扑与表示空间变化物性的神经弹簧场重建可仿真的柔体数字孪生。 📄
 - [Image2Garment: Simulation-ready Garment Generation from a Single Image](https://arxiv.org/abs/2601.09658) - 从单图预测衣物几何与面料物理参数，借助材料属性和实测材料到物理参数映射生成可仿真衣物。 📄
 - [PhysX-3D: Physical-Grounded 3D Asset Generation](https://arxiv.org/abs/2507.12465) - 端到端的物理驱动 3D 资产生成范式，包含 PhysXNet 数据集。 📄 ⭐
-- [PhysX-Anything: Simulation-Ready Physical 3D Assets from Single Image](https://arxiv.org/abs/2511.13468) - 从单张图片生成带有物理特性的仿真就绪 3D 资产。 📄
+- [PhysX-Anything: Simulation-Ready Physical 3D Assets from Single Image](https://arxiv.org/abs/2511.13648) - 从单张图片生成带有物理特性的仿真就绪 3D 资产。 📄
 - [PhysX-Omni: Unified Simulation-Ready Physical 3D Generation for Rigid, Deformable, and Articulated Objects](https://arxiv.org/abs/2605.21572) - 首次将可变形体纳入 PhysX 生成范围，统一刚体/柔体/铰链体。 📄 ⭐
 - [DiffGI: Differentiable Geometry Images](https://arxiv.org/abs/2607.13365) - 基于可微几何图像的 3D 衣物生成方案（暂未集成物理特性）。 📄
 - [PhysTwin: Physics-Informed Reconstruction and Simulation of Deformable Objects from Videos](https://arxiv.org/abs/2503.17973) - 从视频中物理感知地重建与仿真可变形物体，是 Real2Render2Real 和 DeformGen 的前置工作。 📄 ⭐
@@ -97,6 +99,8 @@
 - [Position Based Dynamics (PBD)](https://matthias-research.github.io/pages/tenMinutePhysics/) - Position Based Dynamics 模拟的经典入门资源。 🔧
 - [ThinShellLab: Thin-Shell Object Manipulations With Differentiable Physics Simulations](https://arxiv.org/abs/2404.00451) - 完全可微的薄壳仿真平台，覆盖纸、布等不同弯曲刚度的材料。 📄 🔧
 - [Second-Order FEM for Deformable Surfaces](https://dl.acm.org/doi/10.1145/3592430) - 高阶有限元法用于布料/薄壳仿真的精度提升。 📄
+- [Particle-Grid Neural Dynamics for Learning Deformable Object Models from RGB-D Videos](https://arxiv.org/abs/2506.15680) - 从稀疏视角 RGB-D 视频学习粒子与网格结合的柔性物体动力学，并用于目标条件操作规划。 📄
+- [ClothTransformer: Unified Latent-Space Transformers for Scalable Cloth Simulation](https://arxiv.org/abs/2605.27852) - 通过潜空间自回归 Transformer 建模布料动力学，覆盖人体驱动衣物、机器人操作和自由落体碰撞。 📄
 
 ## 综述与阅读指南
 
