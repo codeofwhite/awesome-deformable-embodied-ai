@@ -92,6 +92,7 @@
 
 ## 基础仿真技术
 
+- [AgentFEM Morph Lab](https://lab.haoming-luo.com/morph/) - 浏览器中的平面柔性杆形状设计工具：拖动目标或绘制曲线，探索分布式驱动。采用无接触准静态力学模型，不是机器人策略或实机测试基准。 🔧
 - [DiffCloth: Differentiable Cloth Simulation with Dry Frictional Contact](https://arxiv.org/abs/2106.05306) - 支持干摩擦接触的可微布料仿真，用于参数辨识、辅助穿衣和控制。 📄 🔧
 - [AdaptiGraph: Material-Adaptive Graph-Based Neural Dynamics for Robotic Manipulation](https://arxiv.org/abs/2407.07889) - 结合材料条件化图动力学与在线物性估计，使操作模型适应未知柔性材料。 📄
 - [Learning Mesh-Based Simulation with Graph Networks](https://arxiv.org/abs/2010.03409) - MeshGraphNets 学习包括布料在内的网格动力学，结合自适应离散化及网格空间、世界空间交互。 📄
