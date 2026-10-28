@@ -1,8 +1,12 @@
 # Awesome Deformable Object Simulation and Manipulation for Embodied AI 🧸 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
+![Robotic grippers manipulating deformable cloth](assets/deformable-manipulation.svg)
+
+**A project by IPPLAB**
+
 > A curated list of resources on deformable object simulation and manipulation (cloth, rope, soft bodies) for embodied intelligence — simulation environments, perception and control, policy learning, sim-to-real transfer, benchmarks, asset generation, and surveys.
 
-[Project website](https://codeofwhite.github.io/awesome-deformable-manipulation/) | [English](README.md) | [中文](README.zh-CN.md)
+[Project website](https://codeofwhite.github.io/awesome-deformable-embodied-ai/) | [English](README.md) | [中文](README.zh-CN.md)
 
 ---
 

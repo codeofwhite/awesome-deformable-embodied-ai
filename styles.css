@@ -297,3 +297,10 @@ footer a:hover { color: var(--lime); }
   *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; }
   #soft-canvas { opacity: .45; }
 }
+
+/* Deformable manipulation illustration */
+.hero-illustration { position: absolute; z-index: 1; right: 3%; top: 20%; width: min(53%, 760px); border: 1px solid rgba(199,255,80,.18); border-radius: 16px; opacity: .88; }
+.hero-content { pointer-events: none; }
+.hero-content a { pointer-events: auto; }
+@media (max-width: 900px) { .hero { min-height: 960px; } .hero-content { padding-top: 140px; } .hero-illustration { top: auto; bottom: 170px; right: 5%; width: 90%; opacity: .8; } .hero-aside { bottom: 32px; } }
+@media (max-width: 480px) { .hero { min-height: 890px; } .hero-illustration { bottom: 190px; } }

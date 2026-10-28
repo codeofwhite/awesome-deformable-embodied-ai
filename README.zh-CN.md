@@ -1,8 +1,12 @@
 # Awesome 具身智能柔性物体仿真与操作 🧸 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
+![Robotic grippers manipulating deformable cloth](assets/deformable-manipulation.svg)
+
+**A project by IPPLAB**
+
 > 面向具身智能的柔性物体仿真与操作精选资源 — 仿真环境、感知与控制、策略学习、Sim-to-Real 迁移、基准测试、资产生成与综述。
 
-[Project website](https://codeofwhite.github.io/awesome-deformable-manipulation/) | [English](README.md) | [中文](README.zh-CN.md)
+[Project website](https://codeofwhite.github.io/awesome-deformable-embodied-ai/) | [English](README.md) | [中文](README.zh-CN.md)
 
 ---
 
