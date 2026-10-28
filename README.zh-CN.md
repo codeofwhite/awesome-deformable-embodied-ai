@@ -4,6 +4,8 @@
 
 **A project by IPPLAB**
 
+[Cloth dataset directory / 衣物数据集目录](https://codeofwhite.github.io/awesome-deformable-embodied-ai/datasets/cloth-datasets.html)
+
 > 面向具身智能的柔性物体仿真与操作精选资源 — 仿真环境、感知与控制、策略学习、Sim-to-Real 迁移、基准测试、资产生成与综述。
 
 [Project website](https://codeofwhite.github.io/awesome-deformable-embodied-ai/) | [English](README.md) | [中文](README.zh-CN.md)

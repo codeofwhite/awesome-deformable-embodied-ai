@@ -71,6 +71,8 @@ def generate(data: dict, lang: str, output_path: Path):
         "",
         "**A project by IPPLAB**",
         "",
+        "[Cloth dataset directory / 衣物数据集目录](https://codeofwhite.github.io/awesome-deformable-embodied-ai/datasets/cloth-datasets.html)",
+        "",
         f"> {desc}",
         "",
         "[Project website](https://codeofwhite.github.io/awesome-deformable-embodied-ai/) | [English](README.md) | [中文](README.zh-CN.md)",
