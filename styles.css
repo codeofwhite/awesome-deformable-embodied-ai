@@ -304,3 +304,11 @@ footer a:hover { color: var(--lime); }
 .hero-content a { pointer-events: auto; }
 @media (max-width: 900px) { .hero { min-height: 960px; } .hero-content { padding-top: 140px; } .hero-illustration { top: auto; bottom: 170px; right: 5%; width: 90%; opacity: .8; } .hero-aside { bottom: 32px; } }
 @media (max-width: 480px) { .hero { min-height: 890px; } .hero-illustration { bottom: 190px; } }
+
+/* English headings need more horizontal space than the original Chinese copy. */
+html[lang="en"] .hero h1 { max-width: 630px; font-size: clamp(42px, 5vw, 74px); line-height: 1.08; letter-spacing: -.045em; }
+html[lang="en"] .hero-copy { max-width: 540px; }
+html[lang="en"] .stat strong { font-size: 23px; overflow-wrap: anywhere; }
+html[lang="en"] .scope-card h3 { overflow-wrap: anywhere; }
+@media (max-width: 900px) { html[lang="en"] .hero { min-height: 1120px; } }
+@media (max-width: 620px) { html[lang="en"] .hero h1 { font-size: clamp(40px, 10vw, 58px); } html[lang="en"] .hero { min-height: 1150px; } }

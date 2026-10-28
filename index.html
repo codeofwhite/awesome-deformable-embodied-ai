@@ -1,29 +1,29 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="面向具身智能的柔性物体仿真与操作精选资源，覆盖感知控制、策略学习、仿真、迁移、基准、资产生成与综述。">
+  <meta name="description" content="Selected resources for flexible object simulation and manipulation for embodied intelligence, covering perception control, policy learning, simulation, migration, benchmarks, asset generation and review.">
   <meta name="theme-color" content="#07110f">
-  <title>Soft Body Atlas · 具身智能柔性物体仿真与操作</title>
+  <title>Soft Body Atlas · Deformable Manipulation for Embodied AI</title>
   <link rel="stylesheet" href="styles.css">
   <script src="script.js" defer></script>
 </head>
 <body>
-  <a class="skip-link" href="#main">跳到主要内容</a>
+  <a class="skip-link" href="#main">Skip to main content</a>
 
   <header class="site-header" data-header>
-    <a class="brand" href="#top" aria-label="Soft Body Atlas 首页">
+    <a class="brand" href="#top" aria-label="Soft Body Atlas Home Page">
       <span class="brand-mark" aria-hidden="true">
         <span></span><span></span><span></span><span></span>
       </span>
       <span>Soft Body <strong>Atlas</strong></span>
     </a>
-    <nav class="nav" aria-label="主导航">
-      <a href="#scope">研究版图</a>
-      <a href="#highlights">精选资源</a>
-      <a href="datasets/cloth-datasets.html">数据集目录</a>
-      <a href="#contribute">参与贡献</a>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#scope">Research map</a>
+      <a href="#highlights">Featured resources</a>
+      <a href="datasets/cloth-datasets.html">Dataset directory</a>
+      <a href="#contribute">Contribute</a>
     </nav>
     <a class="header-action" href="https://github.com/codeofwhite/awesome-deformable-embodied-ai" target="_blank" rel="noreferrer">
       GitHub <span aria-hidden="true">↗</span>
@@ -36,26 +36,26 @@
       <div class="hero-noise" aria-hidden="true"></div>
       <div class="hero-content">
         <p class="eyebrow"><span></span> A project by IPPLAB · Deformable Manipulation</p>
-        <h1>让机器人操作<br><em>柔软的世界</em></h1>
+        <h1>Robots learning to manipulate<br><em>the soft world</em></h1>
         <p class="hero-copy">
-          一份面向具身智能研究者的柔性物体仿真与操作资源图谱，聚合布料、绳索与软体的感知控制、操作策略、仿真迁移和生成技术。
+          A curated map of deformable simulation and manipulation for embodied AI: perception, control, policy learning, sim-to-real transfer, and asset generation for cloth, rope, and soft bodies.
         </p>
         <div class="hero-actions">
-          <a class="button button-primary" href="#scope">探索资源 <span aria-hidden="true">↓</span></a>
-          <a class="button button-ghost" href="datasets/cloth-datasets.html">衣物数据集目录</a>
-          <a class="button button-ghost" href="https://github.com/codeofwhite/awesome-deformable-embodied-ai/blob/main/README.zh-CN.md">阅读完整清单</a>
+          <a class="button button-primary" href="#scope">Explore resources <span aria-hidden="true">↓</span></a>
+          <a class="button button-ghost" href="datasets/cloth-datasets.html">Cloth dataset directory</a>
+          <a class="button button-ghost" href="https://github.com/codeofwhite/awesome-deformable-embodied-ai/blob/main/README.md">Read the full list</a>
         </div>
       </div>
 
-      <img class="hero-illustration" src="assets/deformable-manipulation.svg" alt="机器人夹爪提起柔性布料的示意图">
-      <div class="hero-aside" aria-label="项目简介">
+      <img class="hero-illustration" src="assets/deformable-manipulation.svg" alt="Schematic diagram of robot gripper lifting flexible fabric">
+      <div class="hero-aside" aria-label="Project introduction">
         <div class="stat">
-          <strong>柔性</strong>
-          <span>操作研究</span>
+          <strong>Deformable</strong>
+          <span>Manipulation research</span>
         </div>
         <div class="stat">
           <strong>08</strong>
-          <span>研究方向</span>
+          <span>Research areas</span>
         </div>
         <div class="stat stat-wide">
           <span class="pulse" aria-hidden="true"></span>
@@ -69,20 +69,20 @@
     <section class="intro section-shell" aria-labelledby="intro-title">
       <p class="section-index">01 / OVERVIEW</p>
       <div class="intro-grid">
-        <h2 id="intro-title">从物理世界<br>到智能策略</h2>
+        <h2 id="intro-title">From the physical world<br>to intelligent policies</h2>
         <div>
-          <p class="lead">柔性物体没有固定形状，却存在于机器人需要面对的每一个真实场景。</p>
-          <p>本项目围绕“感知—仿真—操作—迁移”链路，筛选值得关注的论文、工具、数据集与基准，让研究者更快建立领域地图。</p>
+          <p class="lead">Flexible objects have no fixed shape, but exist in every real scene that robots need to face.</p>
+          <p>Explore papers, tools, datasets, and benchmarks across perception, simulation, manipulation, and transfer.</p>
         </div>
       </div>
-      <div class="flow" aria-label="研究流程">
-        <div><span>01</span><strong>建模</strong><small>Model</small></div>
+      <div class="flow" aria-label="research process">
+        <div><span>01</span><strong>Modeling</strong><small>Model</small></div>
         <i aria-hidden="true"></i>
-        <div><span>02</span><strong>仿真</strong><small>Simulate</small></div>
+        <div><span>02</span><strong>Simulate</strong><small>Simulate</small></div>
         <i aria-hidden="true"></i>
-        <div><span>03</span><strong>学习</strong><small>Learn</small></div>
+        <div><span>03</span><strong>Learn</strong><small>Learn</small></div>
         <i aria-hidden="true"></i>
-        <div><span>04</span><strong>迁移</strong><small>Transfer</small></div>
+        <div><span>04</span><strong>Transfer</strong><small>Transfer</small></div>
       </div>
     </section>
 
@@ -91,9 +91,9 @@
         <div class="section-heading">
           <div>
             <p class="section-index">02 / RESEARCH MAP</p>
-            <h2 id="scope-title">八个方向，<em>一张地图</em></h2>
+            <h2 id="scope-title">Eight directions,<em>one map</em></h2>
           </div>
-          <p>从底层求解器到真实世界部署，覆盖柔性物体仿真与操作的关键研究环节。</p>
+          <p>Explore deformable simulation and manipulation, from numerical solvers to real-world deployment.</p>
         </div>
 
         <div class="scope-grid">
@@ -101,51 +101,51 @@
             <div class="card-top"><span>01</span><span class="card-icon">⌁</span></div>
             <div>
               <p>ENVIRONMENTS</p>
-              <h3>仿真环境与平台</h3>
-              <p>探索 SAPIEN、Genesis、Isaac Sim、MuJoCo 等主流多物理仿真工具。</p>
+              <h3>Simulation environments and platforms</h3>
+              <p>Explore leading multiphysics simulation tools such as SAPIEN, Genesis, Isaac Sim, MuJoCo and more.</p>
             </div>
-            <a href="https://github.com/codeofwhite/awesome-deformable-embodied-ai/blob/main/README.zh-CN.md#仿真环境与平台" aria-label="查看仿真环境与平台资源">查看资源 <span>↗</span></a>
+            <a href="https://github.com/codeofwhite/awesome-deformable-embodied-ai/blob/main/README.md#simulation-environments--platforms" aria-label="View simulation environment and platform resources">View resources <span>↗</span></a>
           </article>
 
           <article class="scope-card">
             <div class="card-top"><span>02</span><span class="card-icon">◇</span></div>
-            <div><p>MANIPULATION</p><h3>柔性物体操作任务</h3><p>折叠、悬挂、抓取与移动操作的任务、数据和策略学习。</p></div>
-            <a href="https://github.com/codeofwhite/awesome-deformable-embodied-ai/blob/main/README.zh-CN.md#柔性物体操作任务">查看资源 <span>↗</span></a>
+            <div><p>MANIPULATION</p><h3>Deformable manipulation tasks</h3><p>Task, data and policy learning for folding, hanging, grabbing and moving operations.</p></div>
+            <a href="https://github.com/codeofwhite/awesome-deformable-embodied-ai/blob/main/README.md#deformable-object-manipulation-tasks">View resources <span>↗</span></a>
           </article>
 
           <article class="scope-card">
             <div class="card-top"><span>03</span><span class="card-icon">◇</span></div>
-            <div><p>MANIPULATION METHODS</p><h3>柔性物体操作方法</h3><p>从抓取点感知、视触觉反馈到通用衣物操作与策略学习。</p></div>
-            <a href="https://github.com/codeofwhite/awesome-deformable-embodied-ai/blob/main/README.zh-CN.md#柔性物体操作方法">查看资源 <span>↗</span></a>
+            <div><p>MANIPULATION METHODS</p><h3>Deformable manipulation methods</h3><p>From grasp point perception, visual and tactile feedback to general garment manipulation and strategy learning.</p></div>
+            <a href="https://github.com/codeofwhite/awesome-deformable-embodied-ai/blob/main/README.md#deformable-object-manipulation-methods">View resources <span>↗</span></a>
           </article>
 
           <article class="scope-card">
             <div class="card-top"><span>04</span><span class="card-icon">⇄</span></div>
-            <div><p>SIM-TO-REAL</p><h3>仿真到现实</h3><p>缩小动力学与视觉域差异，让模拟训练真正抵达现实世界。</p></div>
-            <a href="https://github.com/codeofwhite/awesome-deformable-embodied-ai/blob/main/README.zh-CN.md#sim-to-real-迁移">查看资源 <span>↗</span></a>
+            <div><p>SIM-TO-REAL</p><h3>Sim-to-real transfer</h3><p>Narrow the gap between dynamics and visual domains, allowing simulation training to truly reach the real world.</p></div>
+            <a href="https://github.com/codeofwhite/awesome-deformable-embodied-ai/blob/main/README.md#sim-to-real-transfer">View resources <span>↗</span></a>
           </article>
 
           <article class="scope-card">
             <div class="card-top"><span>05</span><span class="card-icon">▦</span></div>
-            <div><p>BENCHMARKS</p><h3>基准与评估</h3><p>用标准环境与统一指标，可靠比较算法的学习效率和泛化能力。</p></div>
-            <a href="https://github.com/codeofwhite/awesome-deformable-embodied-ai/blob/main/README.zh-CN.md#基准测试与评估">查看资源 <span>↗</span></a>
+            <div><p>BENCHMARKS</p><h3>Benchmarks and evaluation</h3><p>Use standard environments and unified indicators to reliably compare the learning efficiency and generalization ability of algorithms.</p></div>
+            <a href="https://github.com/codeofwhite/awesome-deformable-embodied-ai/blob/main/README.md#benchmarks--evaluation">View resources <span>↗</span></a>
           </article>
 
           <article class="scope-card">
             <div class="card-top"><span>06</span><span class="card-icon">✦</span></div>
-            <div><p>3D GENERATION</p><h3>物理资产生成</h3><p>从图像或视频重建可仿真、带物理属性的三维柔性资产。</p></div>
-            <a href="https://github.com/codeofwhite/awesome-deformable-embodied-ai/blob/main/README.zh-CN.md#面向仿真的-3d-资产生成">查看资源 <span>↗</span></a>
+            <div><p>3D GENERATION</p><h3>Physical asset generation</h3><p>Reconstruct simulatable, physically-property 3D flexible assets from images or videos.</p></div>
+            <a href="https://github.com/codeofwhite/awesome-deformable-embodied-ai/blob/main/README.md#3d-asset-generation-for-simulation">View resources <span>↗</span></a>
           </article>
 
           <article class="scope-card">
             <div class="card-top"><span>07</span><span class="card-icon">∿</span></div>
-            <div><p>FOUNDATIONS</p><h3>基础仿真技术</h3><p>PBD、有限元与可微物理：理解柔性体运动背后的计算方法。</p></div>
-            <a href="https://github.com/codeofwhite/awesome-deformable-embodied-ai/blob/main/README.zh-CN.md#基础仿真技术">查看资源 <span>↗</span></a>
+            <div><p>FOUNDATIONS</p><h3>Simulation foundations</h3><p>PBD, finite elements and differentiable physics: understanding the computational methods behind the motion of deformable bodies.</p></div>
+            <a href="https://github.com/codeofwhite/awesome-deformable-embodied-ai/blob/main/README.md#foundational-simulation-techniques">View resources <span>↗</span></a>
           </article>
           <article class="scope-card">
             <div class="card-top"><span>08</span><span class="card-icon">▤</span></div>
-            <div><p>SURVEYS</p><h3>综述与阅读指南</h3><p>建立柔性物体与布料操作领域地图，梳理方法脉络和开放问题。</p></div>
-            <a href="https://github.com/codeofwhite/awesome-deformable-embodied-ai/blob/main/README.zh-CN.md#综述与阅读指南">查看资源 <span>↗</span></a>
+            <div><p>SURVEYS</p><h3>Surveys and reading guides</h3><p>Establish one map of the field of deformable objects and cloth manipulation, and sort out the methodological context and open issues.</p></div>
+            <a href="https://github.com/codeofwhite/awesome-deformable-embodied-ai/blob/main/README.md#surveys--reading-guides">View resources <span>↗</span></a>
           </article>
         </div>
       </div>
@@ -155,40 +155,40 @@
       <div class="section-heading compact">
         <div>
           <p class="section-index">03 / HIGHLIGHTS</p>
-          <h2 id="highlights-title">从这里开始</h2>
+          <h2 id="highlights-title">Start here</h2>
         </div>
-        <a class="text-link" href="https://github.com/codeofwhite/awesome-deformable-embodied-ai/blob/main/README.zh-CN.md">查看完整清单 <span>→</span></a>
+        <a class="text-link" href="https://github.com/codeofwhite/awesome-deformable-embodied-ai/blob/main/README.md">View full list <span>→</span></a>
       </div>
 
       <div class="resource-list">
         <a class="resource" href="https://arxiv.org/abs/2411.01200" target="_blank" rel="noreferrer">
           <span class="resource-number">01</span>
-          <span class="resource-main"><small>SIMULATION · BENCHMARK</small><strong>GarmentLab</strong><span>统一的衣物操作仿真与评测平台</span></span>
+          <span class="resource-main"><small>SIMULATION · BENCHMARK</small><strong>GarmentLab</strong><span>Unified garment manipulation simulation and evaluation platform</span></span>
           <span class="resource-year">2024</span><span class="resource-arrow">↗</span>
         </a>
         <a class="resource" href="https://arxiv.org/abs/2011.07215" target="_blank" rel="noreferrer">
           <span class="resource-number">02</span>
-          <span class="resource-main"><small>RL · BENCHMARK</small><strong>SoftGym</strong><span>柔性物体深度强化学习经典基准</span></span>
+          <span class="resource-main"><small>RL · BENCHMARK</small><strong>SoftGym</strong><span>Classic Benchmark of Deep Reinforcement Learning for Flexible Objects</span></span>
           <span class="resource-year">2020</span><span class="resource-arrow">↗</span>
         </a>
         <a class="resource" href="https://arxiv.org/abs/2503.17973" target="_blank" rel="noreferrer">
           <span class="resource-number">03</span>
-          <span class="resource-main"><small>RECONSTRUCTION · PHYSICS</small><strong>PhysTwin</strong><span>从视频重建并仿真柔性物体</span></span>
+          <span class="resource-main"><small>RECONSTRUCTION · PHYSICS</small><strong>PhysTwin</strong><span>Reconstruct and simulate deformable objects from video</span></span>
           <span class="resource-year">2025</span><span class="resource-arrow">↗</span>
         </a>
         <a class="resource" href="https://github.com/taichi-dev/taichi" target="_blank" rel="noreferrer">
           <span class="resource-number">04</span>
-          <span class="resource-main"><small>TOOL · DIFFERENTIABLE</small><strong>Taichi</strong><span>面向并行计算与可微仿真的高性能语言</span></span>
+          <span class="resource-main"><small>TOOL · DIFFERENTIABLE</small><strong>Taichi</strong><span>High-performance language for parallel computing and differentiable simulation</span></span>
           <span class="resource-year">TOOL</span><span class="resource-arrow">↗</span>
         </a>
         <a class="resource" href="https://arxiv.org/abs/2507.19983" target="_blank" rel="noreferrer">
           <span class="resource-number">05</span>
-          <span class="resource-main"><small>SEMANTIC KEYPOINTS · MANIPULATION</small><strong>CLASP</strong><span>语义关键点连接规划与多任务衣物操作</span></span>
+          <span class="resource-main"><small>SEMANTIC KEYPOINTS · MANIPULATION</small><strong>CLASP</strong><span>Semantic keypoint connection planning and multi-task garment manipulation</span></span>
           <span class="resource-year">2025</span><span class="resource-arrow">↗</span>
         </a>
         <a class="resource" href="https://arxiv.org/abs/2410.11584" target="_blank" rel="noreferrer">
           <span class="resource-number">06</span>
-          <span class="resource-main"><small>PREFERENCE LEARNING · POLICY</small><strong>DeformPAM</strong><span>偏好引导的长时序柔性物体操作</span></span>
+          <span class="resource-main"><small>PREFERENCE LEARNING · POLICY</small><strong>DeformPAM</strong><span>Preference-guided long-term flexible object manipulation</span></span>
           <span class="resource-year">2024</span><span class="resource-arrow">↗</span>
         </a>
       </div>
@@ -198,11 +198,11 @@
       <div class="contribute-orb" aria-hidden="true"></div>
       <div class="section-shell contribute-inner">
         <p class="section-index">04 / OPEN COLLABORATION</p>
-        <h2 id="contribute-title">一起完善柔性世界的<br><em>研究坐标</em></h2>
-        <p>发现了值得收录的论文、工具或数据集？欢迎提交 Pull Request，让这份清单持续生长。</p>
+        <h2 id="contribute-title">Help map the<br><em>deformable world</em></h2>
+        <p>Found a paper, tool, or dataset worth including? Feel free to submit Pull Requests to keep this list growing.</p>
         <div class="hero-actions">
-          <a class="button button-light" href="https://github.com/codeofwhite/awesome-deformable-embodied-ai/blob/main/CONTRIBUTING.md">查看贡献指南</a>
-          <a class="button button-outline" href="https://github.com/codeofwhite/awesome-deformable-embodied-ai" target="_blank" rel="noreferrer">访问 GitHub <span>↗</span></a>
+          <a class="button button-light" href="https://github.com/codeofwhite/awesome-deformable-embodied-ai/blob/main/CONTRIBUTING.md">View contribution guidelines</a>
+          <a class="button button-outline" href="https://github.com/codeofwhite/awesome-deformable-embodied-ai" target="_blank" rel="noreferrer">Visit GitHub <span>↗</span></a>
         </div>
       </div>
     </section>
@@ -211,7 +211,7 @@
   <footer>
     <a class="brand footer-brand" href="#top"><span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span><span></span></span><span>Soft Body <strong>Atlas</strong></span></a>
     <p>A project by IPPLAB · CC0 1.0</p>
-    <div><a href="https://github.com/codeofwhite/awesome-deformable-embodied-ai/blob/main/README.md">EN</a><span>/</span><a href="https://github.com/codeofwhite/awesome-deformable-embodied-ai/blob/main/README.zh-CN.md">中文</a></div>
+    <div><a href="https://github.com/codeofwhite/awesome-deformable-embodied-ai/blob/main/README.md">EN</a><span>/</span><a href="https://github.com/codeofwhite/awesome-deformable-embodied-ai/blob/main/README.zh-CN.md">Chinese</a></div>
   </footer>
 </body>
 </html>
