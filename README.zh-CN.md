@@ -45,6 +45,13 @@
 
 ## 柔性物体操作方法
 
+- [GarmentTracking: Category-Level Garment Pose Tracking](https://arxiv.org/abs/2303.13913) - 基于点云序列在线跟踪类别级服装姿态，并提供仿真折叠数据集。 📄 📊
+- [BiFold: Bimanual Cloth Folding with Language Guidance](https://arxiv.org/abs/2501.16458) - 利用视觉语言模型和标注折叠数据集，实现语言条件下的双臂布料折叠。 📄 📊
+- [Demonstrating Cloth Folding to Robots: Design and Evaluation of a 2D and a 3D User Interface](https://arxiv.org/abs/2104.02968) - 对比二维和增强现实界面，通过仿真预览收集布料折叠示范。 📄
+- [Instant-Fold: In-Context Imitation Learning for Deformable Object Manipulation](https://arxiv.org/abs/2606.04269) - 基于单次示范的上下文折叠策略，在仿真中训练并零样本迁移到真实机器人。 📄
+- [FlingBot: The Unreasonable Effectiveness of Dynamic Manipulation for Cloth Unfolding](https://arxiv.org/abs/2105.03655) - 自监督学习双臂抓取、拉伸和甩动动作以展开布料，并在真实机器人上评估。 📄
+- [SpeedFolding: Learning Efficient Bimanual Folding of Garments](https://arxiv.org/abs/2208.10552) - 预测双臂动作原语，在真实机器人上将褶皱衣物平整并折叠。 📄
+- [Reactive In-Air Clothing Manipulation with Confidence-Aware Dense Correspondence and Visuotactile Affordance](https://arxiv.org/abs/2509.03889) - 结合置信度感知视觉对应与触觉抓取验证，反应式完成衣物折叠和悬挂。 📄
 - [Cloth Region Segmentation for Robust Grasp Selection](https://arxiv.org/abs/2008.05626) - 感知与抓取：从深度图分割布料边缘和角点并选择抓取位姿，通过实机抓取实验评估。 📄
 - [Center Direction Network for Grasping Point Localization on Cloths](https://arxiv.org/abs/2408.14456) - 感知与抓取：CeDiRNet-3DoF 定位布料抓取点并提供 ViCoS 毛巾数据集，评估重点是感知而非完整操作流程。 📄 📊
 - [Visuotactile Affordances for Cloth Manipulation with Local Control](https://arxiv.org/abs/2212.05108) - 视触觉控制：融合视觉与触觉可供性抓住布料边缘，再通过触觉反馈沿边滑动至角点。 📄

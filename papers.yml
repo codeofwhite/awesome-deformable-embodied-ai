@@ -164,6 +164,56 @@ sections:
     title_en: "Deformable Object Manipulation Methods"
     title_zh: "柔性物体操作方法"
     papers:
+      - title: "GarmentTracking: Category-Level Garment Pose Tracking"
+        url: "https://arxiv.org/abs/2303.13913"
+        year: 2023
+        tags: [paper, dataset]
+        desc_en: "Online category-level garment pose tracking from point-cloud sequences, with a simulated folding dataset."
+        desc_zh: "基于点云序列在线跟踪类别级服装姿态，并提供仿真折叠数据集。"
+
+      - title: "BiFold: Bimanual Cloth Folding with Language Guidance"
+        url: "https://arxiv.org/abs/2501.16458"
+        venue: ICRA
+        year: 2025
+        tags: [paper, dataset]
+        desc_en: "Language-conditioned bimanual cloth folding using a vision-language model and an annotated folding dataset."
+        desc_zh: "利用视觉语言模型和标注折叠数据集，实现语言条件下的双臂布料折叠。"
+
+      - title: "Demonstrating Cloth Folding to Robots: Design and Evaluation of a 2D and a 3D User Interface"
+        url: "https://arxiv.org/abs/2104.02968"
+        year: 2021
+        tags: [paper]
+        desc_en: "Compares 2D and augmented-reality interfaces for demonstrating cloth folds with simulated previews."
+        desc_zh: "对比二维和增强现实界面，通过仿真预览收集布料折叠示范。"
+
+      - title: "Instant-Fold: In-Context Imitation Learning for Deformable Object Manipulation"
+        url: "https://arxiv.org/abs/2606.04269"
+        year: 2026
+        tags: [paper]
+        desc_en: "Single-demonstration in-context folding policy trained in simulation and transferred zero-shot to real robots."
+        desc_zh: "基于单次示范的上下文折叠策略，在仿真中训练并零样本迁移到真实机器人。"
+
+      - title: "FlingBot: The Unreasonable Effectiveness of Dynamic Manipulation for Cloth Unfolding"
+        url: "https://arxiv.org/abs/2105.03655"
+        year: 2021
+        tags: [paper]
+        desc_en: "Self-supervised dual-arm cloth unfolding using dynamic pick, stretch, and fling actions, evaluated on real robots."
+        desc_zh: "自监督学习双臂抓取、拉伸和甩动动作以展开布料，并在真实机器人上评估。"
+
+      - title: "SpeedFolding: Learning Efficient Bimanual Folding of Garments"
+        url: "https://arxiv.org/abs/2208.10552"
+        year: 2022
+        tags: [paper]
+        desc_en: "Predicts bimanual action primitives to smooth and fold garments from crumpled initial states on a real robot."
+        desc_zh: "预测双臂动作原语，在真实机器人上将褶皱衣物平整并折叠。"
+
+      - title: "Reactive In-Air Clothing Manipulation with Confidence-Aware Dense Correspondence and Visuotactile Affordance"
+        url: "https://arxiv.org/abs/2509.03889"
+        year: 2025
+        tags: [paper]
+        desc_en: "Combines confidence-aware visual correspondence and tactile grasp validation for reactive clothing folding and hanging."
+        desc_zh: "结合置信度感知视觉对应与触觉抓取验证，反应式完成衣物折叠和悬挂。"
+
       - title: "Cloth Region Segmentation for Robust Grasp Selection"
         url: "https://arxiv.org/abs/2008.05626"
         year: 2020

@@ -45,6 +45,13 @@
 
 ## Deformable Object Manipulation Methods
 
+- [GarmentTracking: Category-Level Garment Pose Tracking](https://arxiv.org/abs/2303.13913) - Online category-level garment pose tracking from point-cloud sequences, with a simulated folding dataset. 📄 📊
+- [BiFold: Bimanual Cloth Folding with Language Guidance](https://arxiv.org/abs/2501.16458) - Language-conditioned bimanual cloth folding using a vision-language model and an annotated folding dataset. 📄 📊
+- [Demonstrating Cloth Folding to Robots: Design and Evaluation of a 2D and a 3D User Interface](https://arxiv.org/abs/2104.02968) - Compares 2D and augmented-reality interfaces for demonstrating cloth folds with simulated previews. 📄
+- [Instant-Fold: In-Context Imitation Learning for Deformable Object Manipulation](https://arxiv.org/abs/2606.04269) - Single-demonstration in-context folding policy trained in simulation and transferred zero-shot to real robots. 📄
+- [FlingBot: The Unreasonable Effectiveness of Dynamic Manipulation for Cloth Unfolding](https://arxiv.org/abs/2105.03655) - Self-supervised dual-arm cloth unfolding using dynamic pick, stretch, and fling actions, evaluated on real robots. 📄
+- [SpeedFolding: Learning Efficient Bimanual Folding of Garments](https://arxiv.org/abs/2208.10552) - Predicts bimanual action primitives to smooth and fold garments from crumpled initial states on a real robot. 📄
+- [Reactive In-Air Clothing Manipulation with Confidence-Aware Dense Correspondence and Visuotactile Affordance](https://arxiv.org/abs/2509.03889) - Combines confidence-aware visual correspondence and tactile grasp validation for reactive clothing folding and hanging. 📄
 - [Cloth Region Segmentation for Robust Grasp Selection](https://arxiv.org/abs/2008.05626) - Perception and grasping: segments cloth edges and corners from depth images and selects grasp poses, with real-robot grasp evaluation. 📄
 - [Center Direction Network for Grasping Point Localization on Cloths](https://arxiv.org/abs/2408.14456) - Perception and grasping: CeDiRNet-3DoF localizes cloth grasp points and provides the ViCoS Towel Dataset; evaluates perception rather than a complete manipulation pipeline. 📄 📊
 - [Visuotactile Affordances for Cloth Manipulation with Local Control](https://arxiv.org/abs/2212.05108) - Visuotactile control: grasps cloth edges using visual and tactile affordances, then slides along an edge to a corner with tactile feedback. 📄
