@@ -28,97 +28,97 @@
 
 ## 仿真环境与平台
 
-- [RFUniverse: A Multiphysics Simulation Platform for Embodied AI](https://arxiv.org/abs/2202.00199) - 面向家务机器人学习的多物理环境，覆盖柔性体交互、流体、气流与热传递。 📄 🔧
-- [SAPIEN: A SimulAted Part-based Interactive ENvironment](https://arxiv.org/abs/2003.08515) - 基于 PhysX 的交互式仿真环境，擅长铰链体与可变形体仿真，具身智能研究广泛使用。 📄 🔧 ⭐
+- **2022-02-01** · [RFUniverse: A Multiphysics Simulation Platform for Embodied AI](https://arxiv.org/abs/2202.00199) · `arXiv:2202.00199` - 面向家务机器人学习的多物理环境，覆盖柔性体交互、流体、气流与热传递。 📄 🔧
+- **2020-03-19** · [SAPIEN: A SimulAted Part-based Interactive ENvironment](https://arxiv.org/abs/2003.08515) · `arXiv:2003.08515` - 基于 PhysX 的交互式仿真环境，擅长铰链体与可变形体仿真，具身智能研究广泛使用。 📄 🔧 ⭐
 - [Genesis World](https://genesis-world.readthedocs.io/) - 多物理仿真平台，覆盖刚体、柔体、流体等，⭐ 29k+ GitHub stars。 🔧 ⭐
 - [SAPIEN ManiSkill](https://maniskill2.github.io/) - 基于 SAPIEN 的统一操作技能学习框架，包含丰富的柔性物体任务。 🔧 📊 ⭐
 - [Isaac Sim / Isaac Lab](https://developer.nvidia.com/isaac-sim) - NVIDIA 机器人仿真平台，GPU 加速柔性体支持，面向大规模具身智能训练。 🔧 ⭐
 - [MuJoCo](https://mujoco.org/) - 先进物理引擎，v3.x 起支持柔性体仿真，机器人研究广泛采用。 🔧 ⭐
 - [Taichi](https://github.com/taichi-dev/taichi) - 高性能并行计算语言，具身智能研究中常用于可微柔体仿真。 🔧
-- [Real2Render2Real: Scaling Robot Data Without Dynamics Simulation or Robot Hardware](https://arxiv.org/abs/2505.09601) - 无需动力学仿真或机器人硬件，通过 Real→Render→Real 流水线大规模生成机器人训练数据。 📄 ⭐
+- **2025-05-14** · [Real2Render2Real: Scaling Robot Data Without Dynamics Simulation or Robot Hardware](https://arxiv.org/abs/2505.09601) · `arXiv:2505.09601` - 无需动力学仿真或机器人硬件，通过 Real→Render→Real 流水线大规模生成机器人训练数据。 📄 ⭐
 
 ## 柔性物体操作任务
 
-- [DexGarmentLab: Dexterous Garment Manipulation Environment with Generalizable Policy](https://arxiv.org/abs/2505.11032) - 双手灵巧衣物操作仿真环境，结合结构对应的示范扩增与分层操作策略。 📄 📊
-- [DexDeform: Dexterous Deformable Object Manipulation with Human Demonstrations and Differentiable Physics](https://arxiv.org/abs/2304.03223) - 从人类示范学习灵巧软体操作技能，并用可微物理优化规划动作。 📄
-- [GraphGarment: Learning Garment Dynamics for Bimanual Cloth Manipulation Tasks](https://arxiv.org/abs/2503.05817) - 用图网络学习仿真衣物动力学，并以残差模型补偿实机双臂挂衣任务中的预测误差。 📄
-- [GarmentLab: A Unified Simulation and Benchmark for Garment Manipulation](https://arxiv.org/abs/2411.01200) - 衣物操作的统一仿真与 benchmark — 折叠、悬挂、穿衣等任务。 📄 📊 ⭐
-- [ClothesNet: An Information-Rich 3D Garment Model Repository with Simulated Clothes Environment](https://arxiv.org/abs/2308.09987) - 大规模衣物 3D 数据集，包含关键点和边界的丰富标注，面向操作研究。 📄 📊
-- [RAPID: Rapid Adaptation of Particle Dynamics for Generalized Deformable Object Mobile Manipulation](https://arxiv.org/abs/2603.18246) - 粒子动力学的快速适应，面向泛化柔性物体移动操作。 📄 ⭐
-- [Benchmarking the Sim-to-Real Gap in Cloth Manipulation](https://arxiv.org/abs/2310.09543) - 布料操作中 sim-to-real gap 的系统评测，对仿真器选型有重要参考价值。 📄 📊
-- [SoftMimicGen: A Data Generation System for Scalable Robot Learning in Deformable Object Manipulation](https://arxiv.org/abs/2603.25725) - MimicGen 在柔性物体操作领域的扩展，实现可扩展的机器人操作数据生成。 📄 ⭐
-- [DeformGen: Dynamics-Based Topology Augmentation for Deformable Manipulation Policy Learning](https://arxiv.org/abs/2606.25939) - 基于动力学的拓扑增强方法，用于柔性物体操作策略学习，结合 PhysTwin 与 Real2Render2Real。 📄
+- **2025-05-16** · [DexGarmentLab: Dexterous Garment Manipulation Environment with Generalizable Policy](https://arxiv.org/abs/2505.11032) · `arXiv:2505.11032` - 双手灵巧衣物操作仿真环境，结合结构对应的示范扩增与分层操作策略。 📄 📊
+- **2023-03-27** · [DexDeform: Dexterous Deformable Object Manipulation with Human Demonstrations and Differentiable Physics](https://arxiv.org/abs/2304.03223) · `arXiv:2304.03223` - 从人类示范学习灵巧软体操作技能，并用可微物理优化规划动作。 📄
+- **2025-03-04** · [GraphGarment: Learning Garment Dynamics for Bimanual Cloth Manipulation Tasks](https://arxiv.org/abs/2503.05817) · `arXiv:2503.05817` - 用图网络学习仿真衣物动力学，并以残差模型补偿实机双臂挂衣任务中的预测误差。 📄
+- **2024-11-02** · [GarmentLab: A Unified Simulation and Benchmark for Garment Manipulation](https://arxiv.org/abs/2411.01200) · `arXiv:2411.01200` - 衣物操作的统一仿真与 benchmark — 折叠、悬挂、穿衣等任务。 📄 📊 ⭐
+- **2023-08-19** · [ClothesNet: An Information-Rich 3D Garment Model Repository with Simulated Clothes Environment](https://arxiv.org/abs/2308.09987) · `arXiv:2308.09987` - 大规模衣物 3D 数据集，包含关键点和边界的丰富标注，面向操作研究。 📄 📊
+- **2026-03-18** · [RAPID: Rapid Adaptation of Particle Dynamics for Generalized Deformable Object Mobile Manipulation](https://arxiv.org/abs/2603.18246) · `arXiv:2603.18246` - 粒子动力学的快速适应，面向泛化柔性物体移动操作。 📄 ⭐
+- **2023-10-14** · [Benchmarking the Sim-to-Real Gap in Cloth Manipulation](https://arxiv.org/abs/2310.09543) · `arXiv:2310.09543` - 布料操作中 sim-to-real gap 的系统评测，对仿真器选型有重要参考价值。 📄 📊
+- **2026-03-26** · [SoftMimicGen: A Data Generation System for Scalable Robot Learning in Deformable Object Manipulation](https://arxiv.org/abs/2603.25725) · `arXiv:2603.25725` - MimicGen 在柔性物体操作领域的扩展，实现可扩展的机器人操作数据生成。 📄 ⭐
+- **2026-06-24** · [DeformGen: Dynamics-Based Topology Augmentation for Deformable Manipulation Policy Learning](https://arxiv.org/abs/2606.25939) · `arXiv:2606.25939` - 基于动力学的拓扑增强方法，用于柔性物体操作策略学习，结合 PhysTwin 与 Real2Render2Real。 📄
 
 ## 柔性物体操作方法
 
-- [GarmentTracking: Category-Level Garment Pose Tracking](https://arxiv.org/abs/2303.13913) - 基于点云序列在线跟踪类别级服装姿态，并提供仿真折叠数据集。 📄 📊
-- [BiFold: Bimanual Cloth Folding with Language Guidance](https://arxiv.org/abs/2501.16458) - 利用视觉语言模型和标注折叠数据集，实现语言条件下的双臂布料折叠。 📄 📊
-- [Demonstrating Cloth Folding to Robots: Design and Evaluation of a 2D and a 3D User Interface](https://arxiv.org/abs/2104.02968) - 对比二维和增强现实界面，通过仿真预览收集布料折叠示范。 📄
-- [Instant-Fold: In-Context Imitation Learning for Deformable Object Manipulation](https://arxiv.org/abs/2606.04269) - 基于单次示范的上下文折叠策略，在仿真中训练并零样本迁移到真实机器人。 📄
-- [FlingBot: The Unreasonable Effectiveness of Dynamic Manipulation for Cloth Unfolding](https://arxiv.org/abs/2105.03655) - 自监督学习双臂抓取、拉伸和甩动动作以展开布料，并在真实机器人上评估。 📄
-- [SpeedFolding: Learning Efficient Bimanual Folding of Garments](https://arxiv.org/abs/2208.10552) - 预测双臂动作原语，在真实机器人上将褶皱衣物平整并折叠。 📄
-- [Reactive In-Air Clothing Manipulation with Confidence-Aware Dense Correspondence and Visuotactile Affordance](https://arxiv.org/abs/2509.03889) - 结合置信度感知视觉对应与触觉抓取验证，反应式完成衣物折叠和悬挂。 📄
-- [Cloth Region Segmentation for Robust Grasp Selection](https://arxiv.org/abs/2008.05626) - 感知与抓取：从深度图分割布料边缘和角点并选择抓取位姿，通过实机抓取实验评估。 📄
-- [Center Direction Network for Grasping Point Localization on Cloths](https://arxiv.org/abs/2408.14456) - 感知与抓取：CeDiRNet-3DoF 定位布料抓取点并提供 ViCoS 毛巾数据集，评估重点是感知而非完整操作流程。 📄 📊
-- [Visuotactile Affordances for Cloth Manipulation with Local Control](https://arxiv.org/abs/2212.05108) - 视触觉控制：融合视觉与触觉可供性抓住布料边缘，再通过触觉反馈沿边滑动至角点。 📄
-- [UniGarmentManip: A Unified Framework for Category-Level Garment Manipulation via Dense Visual Correspondence](https://arxiv.org/abs/2405.06903) - 通用衣物操作：学习类别级稠密对应，以一个或少量示范引导展开、折叠与悬挂任务。 📄
-- [CLASP: General-Purpose Clothes Manipulation with Semantic Keypoints](https://arxiv.org/abs/2507.19983) - 通用衣物操作：通过语义关键点连接 VLM 任务规划与操作技能，在双臂实机上评估折叠、铺平、悬挂与放置。 📄
-- [Cloth Funnels: Canonicalized-Alignment for Multi-Purpose Garment Manipulation](https://arxiv.org/abs/2210.09347) - 整理与折叠：结合动态抖展与抓取放置，将衣物规整到标准配置，为实机熨烫和折叠提供初始状态。 📄
-- [FoldNet: Learning Generalizable Closed-Loop Policy for Garment Folding via Keypoint-Driven Asset and Demonstration Synthesis](https://arxiv.org/abs/2505.09109) - 整理与折叠：生成带关键点标注的衣物资产和示范，结合 KG-DAgger 恢复数据学习闭环折叠策略，并在仿真与实机上评估。 📄
-- [GarmentPile: Point-Level Visual Affordance Guided Retrieval and Adaptation for Cluttered Garments Manipulation](https://arxiv.org/abs/2503.09243) - 堆叠衣物操作：学习点级可供性并调整纠缠衣物堆以支持衣物检索，在仿真与真实场景中评估。 📄
-- [GarmentPile++: Affordance-Driven Cluttered Garments Retrieval with Vision-Language Reasoning](https://arxiv.org/abs/2603.04158) - 堆叠衣物操作：结合视觉语言推理、分割、可供性与双臂协作，执行语言引导的衣物检索。 📄
-- [DeformPAM: Data-Efficient Learning for Long-horizon Deformable Object Manipulation via Preference-based Action Alignment](https://arxiv.org/abs/2410.11584) - 策略学习：利用人类偏好奖励模型筛选扩散模型生成的候选动作，支持真实场景中的长时序柔性物体操作。 📄
-- [DeMaVLA: A Vision-Language-Action Foundation Model for Generalizable Deformable Manipulation](https://arxiv.org/abs/2605.31286) - 策略学习：结合真实示范预训练、流匹配动作生成与人在回路纠错数据，学习跨类别衣物折叠策略。 📄
-- [Learning to Rearrange Deformable Cables, Fabrics, and Bags with Goal-Conditioned Transporter Networks](https://arxiv.org/abs/2012.03385) - 多类对象操作：以图像目标条件化的 Transporter Networks 执行线缆、织物和袋子的多步操作，在仿真与物理实验中评估。 📄
-- [DextAIRity: Deformable Manipulation Can be a Breeze](https://arxiv.org/abs/2203.01197) - 气流辅助操作：结合抓取与闭环吹气动作，在真实三臂系统上完成布料展开和袋口打开。 📄
-- [Diffusion Dynamics Models with Generative State Estimation for Cloth Manipulation](https://arxiv.org/abs/2503.11999) - 利用扩散模型从局部观测重建布料状态并预测动力学，结合模型预测控制实现实机折叠。 📄
+- **2023-03-24** · [GarmentTracking: Category-Level Garment Pose Tracking](https://arxiv.org/abs/2303.13913) · `arXiv:2303.13913` - 基于点云序列在线跟踪类别级服装姿态，并提供仿真折叠数据集。 📄 📊
+- **2025-01-27** · [BiFold: Bimanual Cloth Folding with Language Guidance](https://arxiv.org/abs/2501.16458) · `arXiv:2501.16458` - 利用视觉语言模型和标注折叠数据集，实现语言条件下的双臂布料折叠。 📄 📊
+- **2021-04-07** · [Demonstrating Cloth Folding to Robots: Design and Evaluation of a 2D and a 3D User Interface](https://arxiv.org/abs/2104.02968) · `arXiv:2104.02968` - 对比二维和增强现实界面，通过仿真预览收集布料折叠示范。 📄
+- **2026-06-02** · [Instant-Fold: In-Context Imitation Learning for Deformable Object Manipulation](https://arxiv.org/abs/2606.04269) · `arXiv:2606.04269` - 基于单次示范的上下文折叠策略，在仿真中训练并零样本迁移到真实机器人。 📄
+- **2021-05-08** · [FlingBot: The Unreasonable Effectiveness of Dynamic Manipulation for Cloth Unfolding](https://arxiv.org/abs/2105.03655) · `arXiv:2105.03655` - 自监督学习双臂抓取、拉伸和甩动动作以展开布料，并在真实机器人上评估。 📄
+- **2022-08-22** · [SpeedFolding: Learning Efficient Bimanual Folding of Garments](https://arxiv.org/abs/2208.10552) · `arXiv:2208.10552` - 预测双臂动作原语，在真实机器人上将褶皱衣物平整并折叠。 📄
+- **2025-09-04** · [Reactive In-Air Clothing Manipulation with Confidence-Aware Dense Correspondence and Visuotactile Affordance](https://arxiv.org/abs/2509.03889) · `arXiv:2509.03889` - 结合置信度感知视觉对应与触觉抓取验证，反应式完成衣物折叠和悬挂。 📄
+- **2020-08-13** · [Cloth Region Segmentation for Robust Grasp Selection](https://arxiv.org/abs/2008.05626) · `arXiv:2008.05626` - 感知与抓取：从深度图分割布料边缘和角点并选择抓取位姿，通过实机抓取实验评估。 📄
+- **2024-08-26** · [Center Direction Network for Grasping Point Localization on Cloths](https://arxiv.org/abs/2408.14456) · `arXiv:2408.14456` - 感知与抓取：CeDiRNet-3DoF 定位布料抓取点并提供 ViCoS 毛巾数据集，评估重点是感知而非完整操作流程。 📄 📊
+- **2022-12-09** · [Visuotactile Affordances for Cloth Manipulation with Local Control](https://arxiv.org/abs/2212.05108) · `arXiv:2212.05108` - 视触觉控制：融合视觉与触觉可供性抓住布料边缘，再通过触觉反馈沿边滑动至角点。 📄
+- **2024-05-11** · [UniGarmentManip: A Unified Framework for Category-Level Garment Manipulation via Dense Visual Correspondence](https://arxiv.org/abs/2405.06903) · `arXiv:2405.06903` - 通用衣物操作：学习类别级稠密对应，以一个或少量示范引导展开、折叠与悬挂任务。 📄
+- **2025-07-26** · [CLASP: General-Purpose Clothes Manipulation with Semantic Keypoints](https://arxiv.org/abs/2507.19983) · `arXiv:2507.19983` - 通用衣物操作：通过语义关键点连接 VLM 任务规划与操作技能，在双臂实机上评估折叠、铺平、悬挂与放置。 📄
+- **2022-10-17** · [Cloth Funnels: Canonicalized-Alignment for Multi-Purpose Garment Manipulation](https://arxiv.org/abs/2210.09347) · `arXiv:2210.09347` - 整理与折叠：结合动态抖展与抓取放置，将衣物规整到标准配置，为实机熨烫和折叠提供初始状态。 📄
+- **2025-05-14** · [FoldNet: Learning Generalizable Closed-Loop Policy for Garment Folding via Keypoint-Driven Asset and Demonstration Synthesis](https://arxiv.org/abs/2505.09109) · `arXiv:2505.09109` - 整理与折叠：生成带关键点标注的衣物资产和示范，结合 KG-DAgger 恢复数据学习闭环折叠策略，并在仿真与实机上评估。 📄
+- **2025-03-12** · [GarmentPile: Point-Level Visual Affordance Guided Retrieval and Adaptation for Cluttered Garments Manipulation](https://arxiv.org/abs/2503.09243) · `arXiv:2503.09243` - 堆叠衣物操作：学习点级可供性并调整纠缠衣物堆以支持衣物检索，在仿真与真实场景中评估。 📄
+- **2026-03-04** · [GarmentPile++: Affordance-Driven Cluttered Garments Retrieval with Vision-Language Reasoning](https://arxiv.org/abs/2603.04158) · `arXiv:2603.04158` - 堆叠衣物操作：结合视觉语言推理、分割、可供性与双臂协作，执行语言引导的衣物检索。 📄
+- **2024-10-15** · [DeformPAM: Data-Efficient Learning for Long-horizon Deformable Object Manipulation via Preference-based Action Alignment](https://arxiv.org/abs/2410.11584) · `arXiv:2410.11584` - 策略学习：利用人类偏好奖励模型筛选扩散模型生成的候选动作，支持真实场景中的长时序柔性物体操作。 📄
+- **2026-05-29** · [DeMaVLA: A Vision-Language-Action Foundation Model for Generalizable Deformable Manipulation](https://arxiv.org/abs/2605.31286) · `arXiv:2605.31286` - 策略学习：结合真实示范预训练、流匹配动作生成与人在回路纠错数据，学习跨类别衣物折叠策略。 📄
+- **2020-12-06** · [Learning to Rearrange Deformable Cables, Fabrics, and Bags with Goal-Conditioned Transporter Networks](https://arxiv.org/abs/2012.03385) · `arXiv:2012.03385` - 多类对象操作：以图像目标条件化的 Transporter Networks 执行线缆、织物和袋子的多步操作，在仿真与物理实验中评估。 📄
+- **2022-03-02** · [DextAIRity: Deformable Manipulation Can be a Breeze](https://arxiv.org/abs/2203.01197) · `arXiv:2203.01197` - 气流辅助操作：结合抓取与闭环吹气动作，在真实三臂系统上完成布料展开和袋口打开。 📄
+- **2025-03-15** · [Diffusion Dynamics Models with Generative State Estimation for Cloth Manipulation](https://arxiv.org/abs/2503.11999) · `arXiv:2503.11999` - 利用扩散模型从局部观测重建布料状态并预测动力学，结合模型预测控制实现实机折叠。 📄
 
 ## Sim-to-Real 迁移
 
-- [SimWeaver: Zero-Shot RGB Sim-to-Real for Deformable Manipulation](https://arxiv.org/abs/2606.15338) - 结合实测支撑的布料仿真、拓扑感知轨迹合成与光度增强，实现 RGB 操作策略的零样本实机迁移。 📄
-- [SIM1: Physics-Aligned Simulator as Zero-Shot Data Scaler in Deformable Worlds](https://arxiv.org/abs/2604.08544) - 结合场景数字化、柔性动力学校准和轨迹生成筛选的 real-to-sim-to-real 数据扩增流程。 📄
-- [Sim-to-Real Gentle Manipulation of Deformable and Fragile Objects with Stress-Guided Reinforcement Learning](https://arxiv.org/abs/2510.25405) - 通过应力惩罚奖励与从刚体到柔体的课程训练，将轻柔操作策略迁移到真实易损物体。 📄
+- **2026-06-13** · [SimWeaver: Zero-Shot RGB Sim-to-Real for Deformable Manipulation](https://arxiv.org/abs/2606.15338) · `arXiv:2606.15338` - 结合实测支撑的布料仿真、拓扑感知轨迹合成与光度增强，实现 RGB 操作策略的零样本实机迁移。 📄
+- **2026-04-09** · [SIM1: Physics-Aligned Simulator as Zero-Shot Data Scaler in Deformable Worlds](https://arxiv.org/abs/2604.08544) · `arXiv:2604.08544` - 结合场景数字化、柔性动力学校准和轨迹生成筛选的 real-to-sim-to-real 数据扩增流程。 📄
+- **2025-10-29** · [Sim-to-Real Gentle Manipulation of Deformable and Fragile Objects with Stress-Guided Reinforcement Learning](https://arxiv.org/abs/2510.25405) · `arXiv:2510.25405` - 通过应力惩罚奖励与从刚体到柔体的课程训练，将轻柔操作策略迁移到真实易损物体。 📄
 - [Learning to Manipulate Deformable Objects in the Real World via Sim2Real](https://arxiv.org/abs/2512.11070) - 端到端 sim2real 流水线，通过域随机化实现柔性物体操作的实机迁移。 📄
-- [Differentiable Cloth Parameter Identification and State Estimation in Manipulation](https://arxiv.org/abs/2311.05141) - 利用可微仿真与 RGB-D 观测辨识布料物理参数，并估计操作过程中的布料状态。 📄
+- **2023-11-09** · [Differentiable Cloth Parameter Identification and State Estimation in Manipulation](https://arxiv.org/abs/2311.05141) · `arXiv:2311.05141` - 利用可微仿真与 RGB-D 观测辨识布料物理参数，并估计操作过程中的布料状态。 📄
 
 ## 基准测试与评估
 
-- [DaXBench: Benchmarking Deformable Object Manipulation with Differentiable Physics](https://arxiv.org/abs/2210.13066) - 基于 JAX 的可微物理基准，涵盖布料、绳索和流体，支持规划、模仿学习与强化学习评估。 📄 📊
-- [Real Garment Benchmark (RGBench): A Comprehensive Benchmark for Robotic Garment Manipulation featuring a High-Fidelity Scalable Simulator](https://arxiv.org/abs/2511.06434) - 结合衣物网格、布料仿真器和真实运动测量，评估衣物仿真的物理保真度。 📄 📊
-- [MoDeSuite: Robot Learning Task Suite for Benchmarking Mobile Manipulation with Deformable Objects](https://arxiv.org/abs/2507.21796) - 面向柔性物体的移动操作任务集，提供强化学习、模仿学习基线与实机迁移实验。 📄 📊
-- [SoftVTBench: A Safety-Aware Visuo-Tactile Benchmark for Physically Constrained Robotic Manipulation of Deformable Objects (Early Version)](https://arxiv.org/abs/2607.04234) - 早期版本的视触觉基准，利用 FEM 形变状态区分任务成功与满足物理安全约束的操作。 📄 📊
-- [Real-to-Sim Robot Policy Evaluation with Gaussian Splatting Simulation of Soft-Body Interactions](https://arxiv.org/abs/2511.04665) - 从视频重建柔体数字孪生，结合物理仿真与高斯泼溅渲染评估机器人策略。 📄
-- [PokeFlex: A Real-World Dataset of Volumetric Deformable Objects for Robotics](https://arxiv.org/abs/2410.07688) - 提供网格、RGB-D 观测和交互力的真实体积柔性物体数据，用于形变模型学习与验证。 📄 📊
-- [SoftGym: Benchmarking Deep Reinforcement Learning for Deformable Object Manipulation](https://arxiv.org/abs/2011.07215) - 柔性物体操作（布料、绳索、流体）的 benchmark 套件，提供标准化的 RL 环境。 📄 📊 ⭐
+- **2022-10-24** · [DaXBench: Benchmarking Deformable Object Manipulation with Differentiable Physics](https://arxiv.org/abs/2210.13066) · `arXiv:2210.13066` - 基于 JAX 的可微物理基准，涵盖布料、绳索和流体，支持规划、模仿学习与强化学习评估。 📄 📊
+- **2025-11-09** · [Real Garment Benchmark (RGBench): A Comprehensive Benchmark for Robotic Garment Manipulation featuring a High-Fidelity Scalable Simulator](https://arxiv.org/abs/2511.06434) · `arXiv:2511.06434` - 结合衣物网格、布料仿真器和真实运动测量，评估衣物仿真的物理保真度。 📄 📊
+- **2025-07-29** · [MoDeSuite: Robot Learning Task Suite for Benchmarking Mobile Manipulation with Deformable Objects](https://arxiv.org/abs/2507.21796) · `arXiv:2507.21796` - 面向柔性物体的移动操作任务集，提供强化学习、模仿学习基线与实机迁移实验。 📄 📊
+- **2026-07-05** · [SoftVTBench: A Safety-Aware Visuo-Tactile Benchmark for Physically Constrained Robotic Manipulation of Deformable Objects (Early Version)](https://arxiv.org/abs/2607.04234) · `arXiv:2607.04234` - 早期版本的视触觉基准，利用 FEM 形变状态区分任务成功与满足物理安全约束的操作。 📄 📊
+- **2025-11-06** · [Real-to-Sim Robot Policy Evaluation with Gaussian Splatting Simulation of Soft-Body Interactions](https://arxiv.org/abs/2511.04665) · `arXiv:2511.04665` - 从视频重建柔体数字孪生，结合物理仿真与高斯泼溅渲染评估机器人策略。 📄
+- **2024-10-10** · [PokeFlex: A Real-World Dataset of Volumetric Deformable Objects for Robotics](https://arxiv.org/abs/2410.07688) · `arXiv:2410.07688` - 提供网格、RGB-D 观测和交互力的真实体积柔性物体数据，用于形变模型学习与验证。 📄 📊
+- **2020-11-14** · [SoftGym: Benchmarking Deep Reinforcement Learning for Deformable Object Manipulation](https://arxiv.org/abs/2011.07215) · `arXiv:2011.07215` - 柔性物体操作（布料、绳索、流体）的 benchmark 套件，提供标准化的 RL 环境。 📄 📊 ⭐
 
 ## 面向仿真的 3D 资产生成
 
-- [EMPM: Embodied MPM for Modeling and Simulation of Deformable Objects](https://arxiv.org/abs/2601.17251) - 从 RGB-D 视频重建柔性物体，利用可微 MPM 与在线感知反馈辨识材料参数。 📄
-- [NeuSpring: Neural Spring Fields for Reconstruction and Simulation of Deformable Objects from Videos](https://arxiv.org/abs/2511.08310) - 通过分区弹簧拓扑与表示空间变化物性的神经弹簧场重建可仿真的柔体数字孪生。 📄
-- [Image2Garment: Simulation-ready Garment Generation from a Single Image](https://arxiv.org/abs/2601.09658) - 从单图预测衣物几何与面料物理参数，借助材料属性和实测材料到物理参数映射生成可仿真衣物。 📄
-- [PhysX-3D: Physical-Grounded 3D Asset Generation](https://arxiv.org/abs/2507.12465) - 端到端的物理驱动 3D 资产生成范式，包含 PhysXNet 数据集。 📄 ⭐
-- [PhysX-Anything: Simulation-Ready Physical 3D Assets from Single Image](https://arxiv.org/abs/2511.13648) - 从单张图片生成带有物理特性的仿真就绪 3D 资产。 📄
-- [PhysX-Omni: Unified Simulation-Ready Physical 3D Generation for Rigid, Deformable, and Articulated Objects](https://arxiv.org/abs/2605.21572) - 首次将可变形体纳入 PhysX 生成范围，统一刚体/柔体/铰链体。 📄 ⭐
-- [DiffGI: Differentiable Geometry Images](https://arxiv.org/abs/2607.13365) - 基于可微几何图像的 3D 衣物生成方案（暂未集成物理特性）。 📄
-- [PhysTwin: Physics-Informed Reconstruction and Simulation of Deformable Objects from Videos](https://arxiv.org/abs/2503.17973) - 从视频中物理感知地重建与仿真可变形物体，是 Real2Render2Real 和 DeformGen 的前置工作。 📄 ⭐
-- [Gaussian Garments: Reconstructing Simulation-Ready Clothing with Photorealistic Appearance from Multi-View Video](https://arxiv.org/abs/2409.08189) - 从多视角视频重建可仿真、具备照片级真实感的独立服装资产。 📄
+- **2026-01-24** · [EMPM: Embodied MPM for Modeling and Simulation of Deformable Objects](https://arxiv.org/abs/2601.17251) · `arXiv:2601.17251` - 从 RGB-D 视频重建柔性物体，利用可微 MPM 与在线感知反馈辨识材料参数。 📄
+- **2025-11-11** · [NeuSpring: Neural Spring Fields for Reconstruction and Simulation of Deformable Objects from Videos](https://arxiv.org/abs/2511.08310) · `arXiv:2511.08310` - 通过分区弹簧拓扑与表示空间变化物性的神经弹簧场重建可仿真的柔体数字孪生。 📄
+- **2026-01-14** · [Image2Garment: Simulation-ready Garment Generation from a Single Image](https://arxiv.org/abs/2601.09658) · `arXiv:2601.09658` - 从单图预测衣物几何与面料物理参数，借助材料属性和实测材料到物理参数映射生成可仿真衣物。 📄
+- **2025-07-16** · [PhysX-3D: Physical-Grounded 3D Asset Generation](https://arxiv.org/abs/2507.12465) · `arXiv:2507.12465` - 端到端的物理驱动 3D 资产生成范式，包含 PhysXNet 数据集。 📄 ⭐
+- **2025-11-17** · [PhysX-Anything: Simulation-Ready Physical 3D Assets from Single Image](https://arxiv.org/abs/2511.13648) · `arXiv:2511.13648` - 从单张图片生成带有物理特性的仿真就绪 3D 资产。 📄
+- **2026-05-20** · [PhysX-Omni: Unified Simulation-Ready Physical 3D Generation for Rigid, Deformable, and Articulated Objects](https://arxiv.org/abs/2605.21572) · `arXiv:2605.21572` - 首次将可变形体纳入 PhysX 生成范围，统一刚体/柔体/铰链体。 📄 ⭐
+- **2026-07-15** · [DiffGI: Differentiable Geometry Images](https://arxiv.org/abs/2607.13365) · `arXiv:2607.13365` - 基于可微几何图像的 3D 衣物生成方案（暂未集成物理特性）。 📄
+- **2025-03-23** · [PhysTwin: Physics-Informed Reconstruction and Simulation of Deformable Objects from Videos](https://arxiv.org/abs/2503.17973) · `arXiv:2503.17973` - 从视频中物理感知地重建与仿真可变形物体，是 Real2Render2Real 和 DeformGen 的前置工作。 📄 ⭐
+- **2024-09-12** · [Gaussian Garments: Reconstructing Simulation-Ready Clothing with Photorealistic Appearance from Multi-View Video](https://arxiv.org/abs/2409.08189) · `arXiv:2409.08189` - 从多视角视频重建可仿真、具备照片级真实感的独立服装资产。 📄
 
 ## 基础仿真技术
 
-- [DiffCloth: Differentiable Cloth Simulation with Dry Frictional Contact](https://arxiv.org/abs/2106.05306) - 支持干摩擦接触的可微布料仿真，用于参数辨识、辅助穿衣和控制。 📄 🔧
-- [AdaptiGraph: Material-Adaptive Graph-Based Neural Dynamics for Robotic Manipulation](https://arxiv.org/abs/2407.07889) - 结合材料条件化图动力学与在线物性估计，使操作模型适应未知柔性材料。 📄
-- [Learning Mesh-Based Simulation with Graph Networks](https://arxiv.org/abs/2010.03409) - MeshGraphNets 学习包括布料在内的网格动力学，结合自适应离散化及网格空间、世界空间交互。 📄
+- **2021-06-09** · [DiffCloth: Differentiable Cloth Simulation with Dry Frictional Contact](https://arxiv.org/abs/2106.05306) · `arXiv:2106.05306` - 支持干摩擦接触的可微布料仿真，用于参数辨识、辅助穿衣和控制。 📄 🔧
+- **2024-07-10** · [AdaptiGraph: Material-Adaptive Graph-Based Neural Dynamics for Robotic Manipulation](https://arxiv.org/abs/2407.07889) · `arXiv:2407.07889` - 结合材料条件化图动力学与在线物性估计，使操作模型适应未知柔性材料。 📄
+- **2020-10-07** · [Learning Mesh-Based Simulation with Graph Networks](https://arxiv.org/abs/2010.03409) · `arXiv:2010.03409` - MeshGraphNets 学习包括布料在内的网格动力学，结合自适应离散化及网格空间、世界空间交互。 📄
 - [XRTailor (OpenXRLab)](https://github.com/openxrlab/xrtailor) - GPU 加速布料仿真引擎，面向大规模数据生成。 🔧
 - [Position Based Dynamics (PBD)](https://matthias-research.github.io/pages/tenMinutePhysics/) - Position Based Dynamics 模拟的经典入门资源。 🔧
-- [ThinShellLab: Thin-Shell Object Manipulations With Differentiable Physics Simulations](https://arxiv.org/abs/2404.00451) - 完全可微的薄壳仿真平台，覆盖纸、布等不同弯曲刚度的材料。 📄 🔧
+- **2024-03-30** · [ThinShellLab: Thin-Shell Object Manipulations With Differentiable Physics Simulations](https://arxiv.org/abs/2404.00451) · `arXiv:2404.00451` - 完全可微的薄壳仿真平台，覆盖纸、布等不同弯曲刚度的材料。 📄 🔧
 - [Second-Order FEM for Deformable Surfaces](https://dl.acm.org/doi/10.1145/3592430) - 高阶有限元法用于布料/薄壳仿真的精度提升。 📄
-- [Particle-Grid Neural Dynamics for Learning Deformable Object Models from RGB-D Videos](https://arxiv.org/abs/2506.15680) - 从稀疏视角 RGB-D 视频学习粒子与网格结合的柔性物体动力学，并用于目标条件操作规划。 📄
-- [ClothTransformer: Unified Latent-Space Transformers for Scalable Cloth Simulation](https://arxiv.org/abs/2605.27852) - 通过潜空间自回归 Transformer 建模布料动力学，覆盖人体驱动衣物、机器人操作和自由落体碰撞。 📄
+- **2025-06-18** · [Particle-Grid Neural Dynamics for Learning Deformable Object Models from RGB-D Videos](https://arxiv.org/abs/2506.15680) · `arXiv:2506.15680` - 从稀疏视角 RGB-D 视频学习粒子与网格结合的柔性物体动力学，并用于目标条件操作规划。 📄
+- **2026-05-27** · [ClothTransformer: Unified Latent-Space Transformers for Scalable Cloth Simulation](https://arxiv.org/abs/2605.27852) · `arXiv:2605.27852` - 通过潜空间自回归 Transformer 建模布料动力学，覆盖人体驱动衣物、机器人操作和自由落体碰撞。 📄
 
 ## 综述与阅读指南
 
-- [A Survey on Robotic Manipulation of Deformable Objects: Recent Advances, Open Challenges and New Frontiers](https://arxiv.org/abs/2312.10419) - 综述：梳理柔性物体感知、建模与操作，重点覆盖数据驱动方法及开放研究问题。 📄
-- [Unfolding the Literature: A Review of Robotic Cloth Manipulation](https://arxiv.org/abs/2407.01361) - 综述：分析建模、感知、评测与操作如何处理织物差异，并梳理泛化挑战。 📄
+- **2023-12-16** · [A Survey on Robotic Manipulation of Deformable Objects: Recent Advances, Open Challenges and New Frontiers](https://arxiv.org/abs/2312.10419) · `arXiv:2312.10419` - 综述：梳理柔性物体感知、建模与操作，重点覆盖数据驱动方法及开放研究问题。 📄
+- **2024-07-01** · [Unfolding the Literature: A Review of Robotic Cloth Manipulation](https://arxiv.org/abs/2407.01361) · `arXiv:2407.01361` - 综述：分析建模、感知、评测与操作如何处理织物差异，并梳理泛化挑战。 📄
 
 ---
 

@@ -40,7 +40,12 @@ def render_entry(paper: dict, lang: str) -> str:
     tags = " ".join(dict.fromkeys(TAG_EMOJI[t] for t in paper.get("tags", []) if t in TAG_EMOJI))
     desc = paper.get(f"desc_{lang}", "")
 
-    parts = [f"- [{title}]({url})"]
+    submitted = paper.get("submitted")
+    arxiv = re.search(r"arxiv\.org/abs/(\d{4}\.\d{4,5})", url)
+    prefix = f"**{submitted}** · " if submitted else ""
+    parts = [f"- {prefix}[{title}]({url})"]
+    if arxiv and submitted:
+        parts.append(f" · `arXiv:{arxiv.group(1)}`")
     if desc:
         parts.append(f" - {desc}")
     if tags:
