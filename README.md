@@ -105,6 +105,8 @@
 
 ## Foundational Simulation Techniques
 
+
+- [AgentFEM Morph Lab](https://lab.haoming-luo.com/morph/) - Browser-based planar soft-rod shape design: drag a target or draw a curve to explore distributed actuation with a quasistatic, contact-free mechanical model; not a robot-policy or hardware benchmark. 🔧
 - **2021-06-09** · [DiffCloth: Differentiable Cloth Simulation with Dry Frictional Contact](https://arxiv.org/abs/2106.05306) · `arXiv:2106.05306` - Differentiable cloth simulation with dry frictional contact for parameter identification, assisted dressing, and control. 📄 🔧
 - **2024-07-10** · [AdaptiGraph: Material-Adaptive Graph-Based Neural Dynamics for Robotic Manipulation](https://arxiv.org/abs/2407.07889) · `arXiv:2407.07889` - Material-conditioned graph dynamics with online physical-property estimation for adapting manipulation to unfamiliar deformable materials. 📄
 - **2020-10-07** · [Learning Mesh-Based Simulation with Graph Networks](https://arxiv.org/abs/2010.03409) · `arXiv:2010.03409` - MeshGraphNets learns mesh-based dynamics, including cloth, with adaptive discretization and mesh-space and world-space interactions. 📄
