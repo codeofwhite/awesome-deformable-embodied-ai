@@ -40,7 +40,12 @@ def render_entry(paper: dict, lang: str) -> str:
     tags = " ".join(dict.fromkeys(TAG_EMOJI[t] for t in paper.get("tags", []) if t in TAG_EMOJI))
     desc = paper.get(f"desc_{lang}", "")
 
-    parts = [f"- [{title}]({url})"]
+    submitted = paper.get("submitted")
+    arxiv = re.search(r"arxiv\.org/abs/(\d{4}\.\d{4,5})", url)
+    prefix = f"**{submitted}** · " if submitted else ""
+    parts = [f"- {prefix}[{title}]({url})"]
+    if arxiv and submitted:
+        parts.append(f" · `arXiv:{arxiv.group(1)}`")
     if desc:
         parts.append(f" - {desc}")
     if tags:
@@ -67,9 +72,15 @@ def generate(data: dict, lang: str, output_path: Path):
     lines = [
         f"# {title} 🧸 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)",
         "",
+        "![Robotic grippers manipulating deformable cloth](assets/deformable-manipulation.svg)",
+        "",
+        "**A project by IPPLAB**",
+        "",
+        "[Cloth dataset directory / 衣物数据集目录](https://codeofwhite.github.io/awesome-deformable-embodied-ai/datasets/cloth-datasets.html)",
+        "",
         f"> {desc}",
         "",
-        "[Project website](https://codeofwhite.github.io/awesome-deformable-manipulation/) | [English](README.md) | [中文](README.zh-CN.md)",
+        "[Project website](https://codeofwhite.github.io/awesome-deformable-embodied-ai/) | [English](README.md) | [中文](README.zh-CN.md)",
         "",
         "---",
         "",
