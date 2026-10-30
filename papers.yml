@@ -350,6 +350,15 @@ sections:
     title_en: "Sim-to-Real Transfer"
     title_zh: "Sim-to-Real 迁移"
     papers:
+      - title: "Effective Parameters, Real Behavior: Renormalization for Robotics -- From Infinite Electron Mass to Sim-to-Real Gap"
+        url: "https://arxiv.org/abs/2607.24079"
+        submitted: "2026-07-27"
+        authors: "Youran Sun, Jiaxuan Guo, Xingyu Ren et al."
+        year: 2026
+        tags: [paper]
+        desc_en: "Brings renormalization from physics to sim-to-real. Simulator parameters take effective, resolution-dependent values. Gives closed-form corrections for PD control, ropes, and underwater swimming. Evidence is analytical, with no new real-robot experiments."
+        desc_zh: "把物理中的重整化引入 sim-to-real：仿真参数取依赖分辨率的有效值，并给出 PD 控制、绳索与水下游动的闭式修正。证据为理论分析，无新的实机实验。"
+
       - title: "SimWeaver: Zero-Shot RGB Sim-to-Real for Deformable Manipulation"
         url: "https://arxiv.org/abs/2606.15338"
         submitted: "2026-06-13"
