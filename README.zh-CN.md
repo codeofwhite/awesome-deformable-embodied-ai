@@ -75,6 +75,7 @@
 
 ## Sim-to-Real 迁移
 
+- **2026-07-27** · [Effective Parameters, Real Behavior: Renormalization for Robotics -- From Infinite Electron Mass to Sim-to-Real Gap](https://arxiv.org/abs/2607.24079) · `arXiv:2607.24079` - 把物理中的重整化引入 sim-to-real：仿真参数取依赖分辨率的有效值，并给出 PD 控制、绳索与水下游动的闭式修正。证据为理论分析，无新的实机实验。 📄
 - **2026-06-13** · [SimWeaver: Zero-Shot RGB Sim-to-Real for Deformable Manipulation](https://arxiv.org/abs/2606.15338) · `arXiv:2606.15338` - 结合实测支撑的布料仿真、拓扑感知轨迹合成与光度增强，实现 RGB 操作策略的零样本实机迁移。 📄
 - **2026-04-09** · [SIM1: Physics-Aligned Simulator as Zero-Shot Data Scaler in Deformable Worlds](https://arxiv.org/abs/2604.08544) · `arXiv:2604.08544` - 结合场景数字化、柔性动力学校准和轨迹生成筛选的 real-to-sim-to-real 数据扩增流程。 📄
 - **2025-10-29** · [Sim-to-Real Gentle Manipulation of Deformable and Fragile Objects with Stress-Guided Reinforcement Learning](https://arxiv.org/abs/2510.25405) · `arXiv:2510.25405` - 通过应力惩罚奖励与从刚体到柔体的课程训练，将轻柔操作策略迁移到真实易损物体。 📄

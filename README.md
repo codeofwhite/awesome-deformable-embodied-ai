@@ -75,6 +75,7 @@
 
 ## Sim-to-Real Transfer
 
+- **2026-07-27** · [Effective Parameters, Real Behavior: Renormalization for Robotics -- From Infinite Electron Mass to Sim-to-Real Gap](https://arxiv.org/abs/2607.24079) · `arXiv:2607.24079` - Brings renormalization from physics to sim-to-real. Simulator parameters take effective, resolution-dependent values. Gives closed-form corrections for PD control, ropes, and underwater swimming. Evidence is analytical, with no new real-robot experiments. 📄
 - **2026-06-13** · [SimWeaver: Zero-Shot RGB Sim-to-Real for Deformable Manipulation](https://arxiv.org/abs/2606.15338) · `arXiv:2606.15338` - Combines measurement-backed cloth simulation, topology-aware trajectory synthesis, and photometric augmentation for RGB policy transfer. 📄
 - **2026-04-09** · [SIM1: Physics-Aligned Simulator as Zero-Shot Data Scaler in Deformable Worlds](https://arxiv.org/abs/2604.08544) · `arXiv:2604.08544` - Real-to-sim-to-real data generation with scene digitization, calibrated deformable dynamics, and filtered trajectory synthesis. 📄
 - **2025-10-29** · [Sim-to-Real Gentle Manipulation of Deformable and Fragile Objects with Stress-Guided Reinforcement Learning](https://arxiv.org/abs/2510.25405) · `arXiv:2510.25405` - Uses stress-penalized rewards and a rigid-to-deformable curriculum to transfer gentle manipulation policies to fragile real objects. 📄
